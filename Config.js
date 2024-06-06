@@ -6,8 +6,8 @@ require('dotenv').config();
 global.ownernumber = [ process.env.OWNER_NUMBER || "923178511210"],
 global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘𝐘𝐎𝐔-𝐇𝐀𝐌✘𓆪_✰",
 global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.socialm = "GitHub: Youham898"
+global.location = "Pakistan"
 
 global.botname = process.env.BOTNAME || "𝐘𝐎𝐔-𝐇𝐀𝐌",//name of the bot
 
@@ -20,15 +20,15 @@ global.themeemoji = '🧩'
 global.wm = "Ayush botz inc."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/J7uhoJgjlfGEL1qRJOtownI'
+global.link = 'https://chat.whatsapp.com/Cty9um0wC8DIhcAm6BxlqP'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
-global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoRecording = true //auto recording
+global.autoTyping = true //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = true //auto update bio
